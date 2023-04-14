@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/brsilvrg/dados/bd_teste.db" readonly="0" foreign_keys="" case_sensitive_like="" temp_store="" wal_autocheckpoint="" synchronous=""/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1148"/><column_width id="4" width="0"/></tab_structure><tab_browse><current_table name="0,0:"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">-- UPDATE user_table SET name = &quot;Roger89&quot;, surename = &quot;Walker&quot; WHERE ROWID = 10
--- SELECT * FROM user_table
--- DELETE FROM user_table WHERE room_table_id = 12
--- DROP TABLE sensor_data
--- CREATE TABLE sensor_data (Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, id INTEGER PRIMARY KEY AUTOINCREMENT, umidade REAL, temperatura REAL) 
--- CREATE TABLE user_table(cpf TEXT PRIMARY KEY, name TEXT, surename TEXT ,room_table_id TEXT)
-SELECT * FROM sensor_data
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/brsilvrg/dados/bd_teste.db" readonly="0" foreign_keys="0" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="0" synchronous="1"/><attached/><window><main_tabs open="structure browser pragmas query" current="3"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1148"/><column_width id="4" width="0"/></tab_structure><tab_browse><current_table name="4,6:mainsensor"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">-- UPDATE user_table SET name = &quot;Roger89&quot;, surename = &quot;Walker&quot; WHERE ROWID = 10
+SELECT * FROM user_table
+-- DELETE FROM user_table WHERE room_table_id = 12
+-- DROP TABLE sensor_data
+-- CREATE TABLE sensor_data (Timestamp DATETIME DEFAULT CURRENT_TIMESTAMP, id INTEGER PRIMARY KEY AUTOINCREMENT, umidade REAL, temperatura REAL) 
+-- CREATE TABLE user_table(cpf TEXT PRIMARY KEY, name TEXT, surename TEXT ,room_table_id TEXT)
+-- SELECT * FROM sensor_data
 </sql><current_tab id="0"/></tab_sql></sqlb_project>
